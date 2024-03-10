@@ -1,0 +1,924 @@
+*{
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+ nav{
+    width: 100%;
+    position: fixed;
+    background-color:black; 
+    z-index: 1000;
+} 
+
+.nav-bar{
+  
+  display: flex;  
+  align-items:center;
+  list-style: none; 
+  padding: 12px 20px; 
+  
+}
+span.logo{
+    color: white;
+    font-size: 40px;
+}
+.menu
+{
+    display: flex;
+    padding-left: 30%;
+}
+.menu li{
+    padding-left: 30px;
+}
+.menu li a{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    transition: 0.25s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+    
+}
+.menu li a::after{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color:gold;
+    transition: 0.15s ease-in-out;
+    
+}
+.menu  li a:hover:after{
+    width: 100%;
+    
+}
+.open-menu,.close-menu{
+    position: absolute;
+    cursor: pointer;
+    font-size: 40px;
+    color: white;
+    display: none;
+    
+
+}
+.open-menu{
+    top: 30%;
+    right: 20px;
+    transform: translate(-50%);
+}
+.close-menu{
+    top:20px ;
+    right: 40px;
+}
+#check{
+    display: none;
+}
+ section{
+    height: 100vh;
+    padding: 10px 9% 20px;
+}
+.homepage_img img{
+    width:25vw;
+    filter: drop-shadow(10px 7px 10px white);
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home_content h3{
+    font-size: 30px;
+    margin-top: 10%;
+    font-family: Playball, cursive;
+
+}
+.home_content h2{
+    font-size: 30px;
+    margin-top: 3%;
+    font-family: Playball, cursive;
+}
+body{
+    background-color:#092635;
+    width: 100%;
+}
+.home_content h1{
+    font-size: 40px;
+    padding-top: 1%;
+    padding-bottom: 0%;
+}
+.home_content p{
+    font-size: 20px;
+    padding: 5% 0 5%;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+span{
+    color:yellow;
+
+}
+.home_content a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;  
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #FEFBF6;
+    margin: 3px 2px 3px 0;
+    transition: .5s ease; 
+    margin-right: 20px;
+}
+.media_link a:hover{
+background-color:#FEFBF6;
+color:black;
+box-shadow: 0 0 10px white;
+} 
+.btn{
+    padding: 30px;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
+.b a,.btn{
+    position: relative;
+    width: 15%;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color:rgba(0,0,0,0.5);
+    overflow:hidden;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-top: 5%;
+    font-size: 20px;
+      
+
+}
+.b a:hover{
+     box-shadow: 0px 5px 15px yellow;
+}
+.working_experiance{
+    width: 100%;
+    height: 40vh;
+    padding: 10px;
+   
+    
+
+}
+
+.about_us{
+    width: 90%;
+    height: 40vh;
+    padding: 10px;
+       
+
+}
+.about_us h3 ,h1{
+    padding-bottom: 5%;
+}
+.about_us h3 {
+    color: red;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
+.percentage2{
+    display: flex;
+    justify-content: space- space-around;
+    justify-content: space-evenly;
+    margin-bottom: 7%;
+    font-family: Playball, cursive;
+
+}
+.percentage2 h2{
+    width: 20%;
+}
+.percentage2 span{
+    color: white;
+  font-size: 20px;
+}
+.total_works{
+    display: flex;
+    width: 100%;
+    padding:5%;
+    gap: 0px;
+    color: white;
+    background-color: black;
+    
+}
+.time_line{
+    margin-top: 10%;
+}
+.experience1{
+    width:20%;
+    height: 60vh;
+    border-left: 5px solid white;
+    padding-left: 5%;
+    font-family: "Smooch Sans", sans-serif;
+
+    
+}
+.experience_text{
+    text-align: center;
+    color: white;
+    font-family: "Permanent Marker", cursive;
+
+}
+
+
+    
+    
+    
+
+
+.experience{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    justify-content: center;
+    gap:10%;
+    color: white;
+}
+.Frontend{
+    width: 30%;
+    height: 30vh;
+    border:2px solid white;
+    text-align: center;
+    padding: 20px;
+    font-family: "Bebas Neue", sans-serif;
+
+
+
+}
+.Frontend a{
+    font-size: 20px;
+}
+.Frontend i{
+    padding-right: 20px;
+    font-size: 20px;
+    color: white;
+    margin-top: 5%;
+}
+.experience1 h3{
+    width: 50px ;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: white;
+    position:relative;
+    right: 47%;
+    bottom: 25%;
+    box-shadow: 0px 5px 15px white;
+}
+
+
+.department{
+    width: 30%;
+    height: 30vh;
+    border:2px solid white;
+    text-align: center;
+    padding: 20px;
+    font-family: "Bebas Neue", sans-serif;
+
+}.department a{
+    font-size: 20px;
+}
+.department i{
+    padding-right: 20px;
+    font-size: 20px;
+    color: white;
+    margin-top: 5%;
+}
+
+.experience2 h3{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid white; 
+     border-radius: 50%; 
+    position:relative;
+    bottom: 25%;
+    right:47%;
+    box-shadow: 0px 5px 15px white;
+} 
+.experience2{
+    width:20%;
+    height: 60vh;
+    border-left: 5px solid white;
+    padding-left: 5%;
+}
+.department:hover{
+ box-shadow: white 0px 5px 15px; 
+ transition: all 1s;
+}
+.Frontend:hover{
+    box-shadow: white 0px 5px 15px; 
+    transition: all 1s;
+   }
+.certificates{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap:30%;
+    column-gap: 5%;
+    font-family: "Smooch Sans", sans-serif;
+}
+.certificationall{
+    width: 90%;
+    height: 100vh;
+    padding: 20px;
+    color: white;
+    margin: auto;
+    
+    
+}
+.certification{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    margin-top: 10%;
+    background-image: url(./photos/certificate\ image.avif);
+    background-size: cover;
+    background-position: center;
+    background-color:black;
+    
+    
+}
+.certification1{
+    width: 100%; 
+    height: 15vh;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    
+   
+    
+}
+.certification1:hover{
+    border-radius: 20px ;
+    background: transparent;
+    backdrop-filter:blur(40px);
+    transition:all 2s;
+    background-color:rgb(159, 204, 219);
+
+   
+}
+.certification1 i{
+    position:relative;
+    right: 45%;
+    top: 30%;
+    font-size: 30px;
+    color: gold;
+    padding-right: 30%;
+}
+.certification1 h3{
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+.skills_topic{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    color: white;
+}
+
+.internal1{
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+   font-family: Playball, cursive;
+}
+.TOOLS h1{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.INTERNATIONALSKILLS h1{
+   text-align:center;
+}
+.internalskills h1 {
+    text-align: center;
+    
+}
+.internal1 h4{
+    width: 20%;
+    height: 15vh;
+    line-height: 15vh;
+    font-size: 25px;
+    margin-left: 10%;
+}
+.internal1 i{
+   font-size: 30px; 
+   filter: drop-shadow(10px 7px 10px white);
+   
+
+}
+.footer{
+    padding: 50px;
+    color: white;
+    background-color: black;
+    height:100%;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+
+}
+.footer1 h2{ 
+    font-family: Playball, cursive;
+
+}
+.footer1 h3{
+    font-family: "Smooch Sans", sans-serif;
+
+}
+
+ /* .newsletter{
+  width:150%;
+  border: 2px solid white;
+  
+
+}  */
+
+.footer1 h2,h3,input{
+    margin-bottom: 30px;
+}
+input{
+    width: 80%;
+    padding: 10px;
+}
+.newsletter button{
+   width: 20%;
+   padding:10px ;
+   background-color: red;
+   color: white;
+   
+}
+.newsletter a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;  
+    width:2rem;
+    height: 2rem;
+    background: transparent;
+    border: 2px solid black;
+    /* border-radius: 50%; */
+    font-size:30px;
+    color: #FEFBF6;
+    margin: 3px 2px 3px 0;
+    transition: .5s ease; 
+    margin-right: 20px;
+    margin-bottom: 10%; 
+
+
+}
+.newsletter h3{
+    font-family: "Smooch Sans", sans-serif;
+
+}
+.newsletter a:hover{
+    background-color:#FEFBF6;
+    color:black;
+    box-shadow: 0 0 10px white;
+    } 
+
+    .footer_contact{
+        width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+    padding-top: 10%;
+    margin: auto;
+    font-family: "Smooch Sans", sans-serif;
+
+    }
+    .underline{
+        width: 300%;
+        border-bottom: 3px solid white;
+        margin-left: 30%;
+    }
+    .footer_contact i{
+        font-size: 30px;
+    }
+   
+
+@media only screen and (min-width:500px) and (max-width:900px){
+    .nav{
+        width: 190%;
+    } 
+    
+    
+        .nav-bar{
+         
+         display: flex;
+         padding: 20px 30px; 
+    
+        
+    }
+    .menu li a{
+        font-size: 12px;
+    }
+    .menu li{
+        padding-left:10px;
+    }
+    .menu{
+        padding-left: 0%;
+    }
+    
+    span.logo{
+        font-size: 23px;
+    }
+    .home{
+        padding-top: 20%;
+    }
+    .b a{
+        width: 35%;
+    }
+    .homepage_img img{
+        width: 80%;
+        margin:0 0 100% 0%;
+    }
+    section{
+        padding: 0 0 0 10px;
+    }
+    .home_content{
+        width: 150%;
+    }
+    .total_works{
+        margin-top: 20%;
+        height: 90vh;
+        width: 100%;
+    }
+    .working_experiance{
+        height: 70vh;
+        /* width: 50%; */
+    }
+    .about_us {
+        height: 70vh;
+        /* width: 50%; */
+        
+    }
+    .about_us h1 ,h3{
+        padding-bottom: 2%;
+        font-size: 20px;
+    }
+    .percentage2{
+        display: block;
+    }
+    .experience{
+        width: 100%;
+        justify-content: none;
+        gap: 20%;
+    }
+    .Frontend{
+        width: 50%;
+        height: 40vh;
+    }
+    .experience1 h3{
+        position: relative;
+        right: 60%;
+        bottom: 30%;
+    }
+    .department{
+        width: 50%;
+        height:40vh ;
+    }
+    .experience2 h3{
+        position: relative;
+        bottom: 50%;
+        right: 60%;
+    }
+    .certification1:hover{
+        width:90%;
+        height: 30vh;
+    }
+    .certificates{
+        column-gap:20px;
+        row-gap: 40px;
+    }
+    .certification1 i{
+       padding-right: 30%;
+    }
+    .certificationall{
+        height: 60vh;
+        
+    }
+    .certification1{
+        width: 100%;
+    }
+    .internal1{
+        width: 100%;
+    }
+    .internal1 h4{
+        width: 40%;
+        
+    }
+    .footer{
+        height: 100%;
+        padding: 40px;
+    }
+    .footer1{
+        display: grid;
+        grid-template-columns: auto auto ;
+        column-gap: 40px;
+        width: 90%;
+        height: 100vh;
+    }
+    .footer_contact{
+        width: 100%;
+        margin-top: 10%;
+        display: grid;
+        column-gap: 40px;
+        
+    }
+    input{
+        width: 70%;
+    }
+    .newsletter button{
+        width: 30%;
+    }
+    .underline{
+        width:290%;
+        margin-left:10%;
+    } 
+}
+
+@media only screen and (min-width:286px) and (max-width:500px) {
+    .nav{
+        width: 100%;       
+        
+        
+     }
+     .nav-bar{
+         height: 30%; 
+        
+        
+    }  
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right:-100%;
+        z-index: 100;
+        background-color:black;
+        transition: all 0.2s ease-in-out;
+    }
+    .menu li{
+        margin-top: 0px;
+    }
+    .menu{
+        padding-left: 0px;
+    }
+    
+    .menu li a{
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+    }
+    .open-menu,.close-menu{
+        display: block;
+        font-size: 30px;
+    }
+    #check:checked~.menu{
+        right: 0;
+    }
+
+    .home{
+        padding-top: 20%;
+        
+    }
+    section{
+        padding: 30px;
+        width: 100%;
+    }
+    .homepage_img img{
+        margin-bottom: 400%;
+    }
+    .home{
+        display:block;
+    }
+    .home_content{
+        width: 100%;
+    }
+    .home_content a{
+        margin-right:15px;
+        width: 3rem;
+        height: 3rem;
+        
+    }
+    .b a{
+        width: 40%;
+    }
+    .homepage_img img{
+      margin: 10% 0 0 15%;
+      width: 70%;
+          }
+    .media_link a{
+        padding: 20px;
+        border-radius: 50%;
+
+     }
+     .about_us{
+        
+        height: 70vh;
+        margin-bottom: 10%;
+     }
+     .working_experiance{
+        height:60vh ;
+        width: 90%;
+        margin-top: 50%;
+    
+     }
+     .total_works{
+        margin-top: 180% ;
+        width: 100%;
+        height: 100%;
+        display: block;
+        text-align: center;
+       padding-left: 15%;
+       
+       
+     }
+     .percentage2{
+        display: block;
+     }
+     .percentage2 h2{
+        width: 100%;
+     }
+      .about_us h3,h1{
+        /* width: 80%; */
+        padding-bottom: 10%;
+         text-align: center; 
+        margin-top: 20%;
+     }
+     .time_line{
+        margin: auto;
+        padding-bottom: 10%;
+        text-align: center;
+        
+     } 
+     .experience{
+        display: block;
+        width: 80%;
+        padding-bottom: 10%;
+        text-align: center;
+        margin-top: 60%;
+        /* margin: auto; */
+     }
+     .about_us h1{
+        width: 100%;
+        padding-bottom: 40px;
+        text-align: center;
+        
+
+     }
+    
+     .Frontend{
+        width: 90%;
+        height: 40vh;
+        padding: 10px;
+        margin-left: 20%;
+    }
+    .Frontend h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .experience1{
+        width: 70%;
+        margin-left: 20%;
+        height: 50vh;
+        padding-left: 20%;
+    }
+    .experience1 h3{
+        position: relative;
+        right: 55%;
+    }
+    .experience2{
+        width: 70%;
+        height:50vh ;
+        margin-left: 20%;
+        padding-left: 20%;
+        
+    }
+    .experience2 h3{
+        position: relative;
+        bottom: 40%;
+        right: 55%;
+    
+    }
+    .department{
+        width:90%;
+        height: 40vh;
+        margin-left: 20%;
+        padding: 10px;
+    }
+    .department h1{
+        font-size: 20px;
+
+    }
+    .experience_text h1{
+        color: white;
+        padding-left: 10%;
+        font-size: 20px;
+    }
+    .experience_text{
+        /* margin-top: 40%; */
+        width: 70%;
+        height:30%;
+        /* border: 2px solid white; */
+        text-align: center;
+        margin: auto;
+    }
+    .certificationall{
+        height: 100%;
+    }
+    .certificates{
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 5px;
+    }
+    .certification1{
+        width: 100%;
+        height: 20vh;
+    }
+    .certification{
+        height: 100%;
+    }
+    .certification1:hover{
+        height: 25vh;
+    }
+    .internal1 {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20%;
+    }
+    .internal1 h4{
+        width: 100%;
+        margin: auto;
+    
+    }
+    .internalskills h1{
+        font-size: 30px;
+    }
+    .TOOLS h1{
+        font-size: 30px;
+    }
+    .internal1 {
+        display: block;
+        width: 100%;
+        margin: auto;
+    } 
+      .footer{
+        width: 100%;
+        height:100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .footer1{
+      display:block;
+      grid-template-columns: auto;  
+      margin: auto;
+      
+    } 
+    .footer_contact{
+        margin-top: 250%;
+        column-gap: 30px;
+        display: grid;
+        grid-template-columns: auto;
+
+    } 
+    .underline{
+        width: 100%;
+        margin-left: 0;
+
+    }
+     .footer_contact h1{
+        margin-top: 0;
+        font-size: 20px;
+     }
+     input{
+        width: 70%;
+     }
+     .newsletter button{
+        width: 30%;
+     }
+    
+}
