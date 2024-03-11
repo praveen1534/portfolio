@@ -14,8 +14,7 @@
     z-index: 1000;
 } 
 
-.nav-bar{
-  
+.nav-bar{  
   display: flex;  
   align-items:center;
   list-style: none; 
@@ -171,17 +170,14 @@ box-shadow: 0 0 10px white;
 .working_experiance{
     width: 100%;
     height: 40vh;
-    padding: 10px;
-   
-    
+    padding: 10px;   
 
 }
 
 .about_us{
     width: 90%;
     height: 40vh;
-    padding: 10px;
-       
+    padding: 10px;    
 
 }
 .about_us h3 ,h1{
@@ -233,15 +229,7 @@ box-shadow: 0 0 10px white;
     text-align: center;
     color: white;
     font-family: "Permanent Marker", cursive;
-
 }
-
-
-    
-    
-    
-
-
 .experience{
     width: 100%;
     display: flex;
@@ -257,9 +245,6 @@ box-shadow: 0 0 10px white;
     text-align: center;
     padding: 20px;
     font-family: "Bebas Neue", sans-serif;
-
-
-
 }
 .Frontend a{
     font-size: 20px;
@@ -281,8 +266,6 @@ box-shadow: 0 0 10px white;
     bottom: 25%;
     box-shadow: 0px 5px 15px white;
 }
-
-
 .department{
     width: 30%;
     height: 30vh;
@@ -350,8 +333,7 @@ box-shadow: 0 0 10px white;
     background-image: url(./photos/certificate\ image.avif);
     background-size: cover;
     background-position: center;
-    background-color:black;
-    
+    background-color:black;   
     
 }
 .certification1{
@@ -359,8 +341,7 @@ box-shadow: 0 0 10px white;
     height: 15vh;
     text-align: center;
     padding: 10px;
-    margin: auto;
-    
+    margin: auto; 
    
     
 }
@@ -369,9 +350,7 @@ box-shadow: 0 0 10px white;
     background: transparent;
     backdrop-filter:blur(40px);
     transition:all 2s;
-    background-color:rgb(159, 204, 219);
-
-   
+    background-color:rgb(159, 204, 219);   
 }
 .certification1 i{
     position:relative;
@@ -446,14 +425,6 @@ box-shadow: 0 0 10px white;
     font-family: "Smooch Sans", sans-serif;
 
 }
-
- /* .newsletter{
-  width:150%;
-  border: 2px solid white;
-  
-
-}  */
-
 .footer1 h2,h3,input{
     margin-bottom: 30px;
 }
@@ -476,15 +447,12 @@ input{
     height: 2rem;
     background: transparent;
     border: 2px solid black;
-    /* border-radius: 50%; */
     font-size:30px;
     color: #FEFBF6;
     margin: 3px 2px 3px 0;
     transition: .5s ease; 
     margin-right: 20px;
-    margin-bottom: 10%; 
-
-
+    margin-bottom: 10%;
 }
 .newsletter h3{
     font-family: "Smooch Sans", sans-serif;
@@ -519,14 +487,12 @@ input{
 @media only screen and (min-width:500px) and (max-width:900px){
     .nav{
         width: 190%;
-    } 
+    }    
     
-    
-        .nav-bar{
+    .nav-bar{
          
          display: flex;
-         padding: 20px 30px; 
-    
+         padding: 20px 30px;    
         
     }
     .menu li a{
@@ -565,11 +531,9 @@ input{
     }
     .working_experiance{
         height: 70vh;
-        /* width: 50%; */
     }
     .about_us {
         height: 70vh;
-        /* width: 50%; */
         
     }
     .about_us h1 ,h3{
@@ -642,8 +606,7 @@ input{
         width: 100%;
         margin-top: 10%;
         display: grid;
-        column-gap: 40px;
-        
+        column-gap: 40px;        
     }
     input{
         width: 70%;
@@ -659,13 +622,11 @@ input{
 
 @media only screen and (min-width:286px) and (max-width:500px) {
     .nav{
-        width: 100%;       
-        
+        width: 100%;        
         
      }
      .nav-bar{
-         height: 30%; 
-        
+         height: 30%;         
         
     }  
     .menu{
@@ -702,8 +663,7 @@ input{
     }
 
     .home{
-        padding-top: 20%;
-        
+        padding-top: 20%;        
     }
     section{
         padding: 30px;
@@ -721,8 +681,7 @@ input{
     .home_content a{
         margin-right:15px;
         width: 3rem;
-        height: 3rem;
-        
+        height: 3rem;        
     }
     .b a{
         width: 40%;
@@ -744,8 +703,7 @@ input{
      .working_experiance{
         height:60vh ;
         width: 90%;
-        margin-top: 50%;
-    
+        margin-top: 50%;    
      }
      .total_works{
         margin-top: 180% ;
@@ -753,8 +711,7 @@ input{
         height: 100%;
         display: block;
         text-align: center;
-       padding-left: 15%;
-       
+       padding-left: 15%;      
        
      }
      .percentage2{
@@ -764,7 +721,6 @@ input{
         width: 100%;
      }
       .about_us h3,h1{
-        /* width: 80%; */
         padding-bottom: 10%;
          text-align: center; 
         margin-top: 20%;
@@ -781,13 +737,11 @@ input{
         padding-bottom: 10%;
         text-align: center;
         margin-top: 60%;
-        /* margin: auto; */
      }
      .about_us h1{
         width: 100%;
         padding-bottom: 40px;
-        text-align: center;
-        
+        text-align: center;       
 
      }
     
@@ -840,10 +794,8 @@ input{
         font-size: 20px;
     }
     .experience_text{
-        /* margin-top: 40%; */
         width: 70%;
         height:30%;
-        /* border: 2px solid white; */
         text-align: center;
         margin: auto;
     }
