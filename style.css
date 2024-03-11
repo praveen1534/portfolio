@@ -370,7 +370,84 @@ box-shadow: 0px 5px 15px yellow;
 background-color: white;
 box-shadow: 0px 5px 15px yellow;
 }
+.footer{
+    padding: 50px;
+    color: white;
+    background-color: black;
+    height:100%;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    height: 30vh;
+    margin: auto;
 
+}
+.footer1 h2{ 
+    font-family: Playball, cursive;
+
+}
+.footer1 h3{
+    font-family: "Smooch Sans", sans-serif;
+
+}
+.footer1 h2,h3,input{
+    margin-bottom: 30px;
+}
+input{
+    width: 80%;
+    padding: 10px;
+}
+.newsletter button{
+   width: 20%;
+   padding:10px ;
+   background-color: red;
+   color: white;
+   
+}
+.newsletter a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;  
+    width:2rem;
+    height: 2rem;
+    background: transparent;
+    border: 2px solid black;
+    font-size:30px;
+    color: #FEFBF6;
+    margin: 3px 2px 3px 0;
+    transition: .5s ease; 
+    margin-right: 20px;
+    margin-bottom: 10%;
+}
+.newsletter h3{
+    font-family: "Smooch Sans", sans-serif;
+
+}
+.newsletter a:hover{
+    background-color:#FEFBF6;
+    color:black;
+    box-shadow: 0 0 10px white;
+    } 
+.footer_contact{
+    width: 70%;
+display: grid;
+grid-template-columns: auto auto auto;
+row-gap: 20px;
+padding-top: 10%;
+margin: auto;
+font-family: "Smooch Sans", sans-serif;
+
+}
+.underline{
+    width: 300%;
+    border-bottom: 3px solid white;
+    margin-left: 30%;
+}
+.footer_contact i{
+    font-size: 30px;
+}
 
 
 
@@ -457,6 +534,33 @@ box-shadow: 0px 5px 15px yellow;
     .what_text{
         padding: 50px;
     }
+    .footer{
+        height: 100%;
+        padding: 40px;
+    }
+    .footer1{
+        display: grid;
+        grid-template-columns: auto auto ;
+        column-gap: 40px;
+        width: 90%;
+        height: 100vh;
+    }
+    .footer_contact{
+        width: 100%;
+        margin-top: 10%;
+        display: grid;
+        column-gap: 40px;        
+    }
+    input{
+        width: 70%;
+    }
+    .newsletter button{
+        width: 30%;
+    }
+    .underline{
+        width:290%;
+        margin-left:10%;
+    } 
 }
 @media only screen and (min-width:286px) and (max-width:500px) {
     .nav{
@@ -599,5 +703,39 @@ box-shadow: 0px 5px 15px yellow;
     input.mess{
         padding-bottom: 30%;
     }
+    .footer{
+        width: 100%;
+        height:100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .footer1{
+      display:block;
+      grid-template-columns: auto;  
+      margin: auto;
+      
+    } 
+    .footer_contact{
+        margin-top: 230%;
+        column-gap: 30px;
+        display: grid;
+        grid-template-columns: auto;
+
+    } 
+    .underline{
+        width: 100%;
+        margin-left: 0;
+
+    }
+     .footer_contact h1{
+        margin-top: 20px;
+        font-size: 20px;
+     }
+     input{
+        width: 70%;
+     }
+     .newsletter button{
+        width: 30%;
+     }
     
 }
