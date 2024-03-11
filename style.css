@@ -11,6 +11,7 @@
     width: 100%;
     position: fixed;
     background-color:black; 
+    /* border: 2px solid black; */
     z-index: 1000;
 } 
 
@@ -225,26 +226,29 @@ box-shadow: 0 0 10px white;
 .contact_me{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-;
     gap:10%;
     justify-content: center;
     align-items: center;
     padding: 40px;
+    /* background-color: pink; */
+    /* margin: auto; */
     
 }
-/* .contact_me:hover{
+.contact_me:hover{
     background-image: url(./photos/contact\ me\ image.avif);
     background-position: center;
     background-size: cover;
-} */
+}
 .contact{
     width: 40%;
     height: 60vh;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     text-align: center;
 }
 
 .contact:hover{
+    /* border: 2px solid black; */
     box-shadow: 10px 5px 5px  yellow;
 }
 input:hover{
@@ -264,6 +268,7 @@ input:hover{
     font-size: 40px;
     border-radius: 50%;
     padding: 10px;
+    /* margin: 0px 80px 20px 0; */
     
 }
 .contact a{
@@ -281,6 +286,7 @@ input:hover{
 .from  input{
     width:150% ;
     height: 10vh;
+    /* padding: 20px; */
     border: 2px solid black;
     margin-bottom: 30px;
     
@@ -330,6 +336,7 @@ font-size: 50px;
 .experience1,.experience2,.experience3 {
     width: 30%;
     height: 40vh;
+    /* border: 2px solid white; */
     text-align: center;
     margin: auto;
     display: flex;
@@ -338,12 +345,12 @@ font-size: 50px;
     flex-direction: column;
     gap: 2rem;
 }
-/* .experience1:hover{
+.experience1:hover{
     box-shadow: 5px 2px 0 2px yellow;
     background-image: url(./photos/responsive\ image.jpg);
     background-position: center;
     background-size: cover;
-} */
+}
 .experience1 i:hover{
 background-color: white;
 box-shadow: 0px 5px 15px yellow;
@@ -416,9 +423,11 @@ box-shadow: 0px 5px 15px yellow;
     }
     .working_experiance{
         height: 70vh;
+        /* width: 50%; */
     }
     .about_us {
         height: 70vh;
+        /* width: 50%; */
         
     }
     .about_us h1 ,h3{
@@ -457,6 +466,7 @@ box-shadow: 0px 5px 15px yellow;
      }
      .nav-bar{
          height: 30%; 
+        /* padding:0; */
         
     }  
     .menu{
@@ -491,6 +501,9 @@ box-shadow: 0px 5px 15px yellow;
     #check:checked~.menu{
         right: 0;
     }
+    /* body{
+        width: 100%;
+    } */
     .home{
         padding-top: 20%;
         
@@ -571,12 +584,10 @@ box-shadow: 0px 5px 15px yellow;
     }
     .what_I_do{
         display: block;
+        
     }
-    .experience1,.experience2,.experience3{
+    .experience1{
         margin-bottom:20% ;
         width: 80%;
-    }
-    input.mess{
-        padding-top: 10%;
     }
 }
