@@ -768,7 +768,7 @@ input{
     }
     .experience1 h3{
         position: relative;
-        right: 55%;
+        right: 60%;
     }
     .experience2{
         width: 70%;
@@ -779,10 +779,15 @@ input{
     }
     .experience2 h3{
         position: relative;
-        bottom: 40%;
-        right: 55%;
+        bottom: 30%;
+        right: 60%;
     
     }
+    #ball{
+     position: relative;
+     bottom: 50%;
+    }
+    
     .department{
         width:90%;
         height: 40vh;
