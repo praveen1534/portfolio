@@ -232,11 +232,11 @@ box-shadow: 0 0 10px white;
     padding: 40px;
     
 }
-.contact_me:hover{
+/* .contact_me:hover{
     background-image: url(./photos/contact\ me\ image.avif);
     background-position: center;
     background-size: cover;
-}
+} */
 .contact{
     width: 40%;
     height: 60vh;
@@ -338,12 +338,12 @@ font-size: 50px;
     flex-direction: column;
     gap: 2rem;
 }
-.experience1:hover{
+/* .experience1:hover{
     box-shadow: 5px 2px 0 2px yellow;
     background-image: url(./photos/responsive\ image.jpg);
     background-position: center;
     background-size: cover;
-}
+} */
 .experience1 i:hover{
 background-color: white;
 box-shadow: 0px 5px 15px yellow;
