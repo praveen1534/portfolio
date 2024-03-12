@@ -716,7 +716,7 @@ font-family: "Smooch Sans", sans-serif;
       
     } 
     .footer_contact{
-        margin-top: 230%;
+        margin-top: 240%;
         column-gap: 30px;
         display: grid;
         grid-template-columns: auto;
