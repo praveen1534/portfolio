@@ -333,7 +333,7 @@ body{
 }
 .certification{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     text-align: center;
     margin-top: 10%;
     background-image: url(./photos/certificate\ image.avif);
@@ -344,7 +344,7 @@ body{
 }
 .certification1{
     width: 100%; 
-    height: 15vh;
+    height: 20vh;
     text-align: center;
     padding: 10px;
     margin: auto; 
