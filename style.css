@@ -146,15 +146,14 @@ color:black;
 box-shadow: 0 0 10px white;
 } 
 .btn{
-    padding: 30px;
-    font-family: "Bebas Neue", sans-serif;
-
+    padding: 20px;
+    font-family: "Bebas Neue", sans-serif; 
 }
 
 .b a,.btn{
     position: relative;
     width: 15%;
-    height: 5vh;
+    height: 1vh;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -163,8 +162,7 @@ box-shadow: 0 0 10px white;
     border-radius: 20px;
     border: 2px solid white;
     margin-top: 5%;
-    font-size: 20px;
-      
+    font-size: 20px;     
 
 }
 .b a:hover{
@@ -173,9 +171,7 @@ box-shadow: 0 0 10px white;
 .working_experiance{
     width: 100%;
     height: 40vh;
-    padding: 10px;
-   
-    
+    padding: 10px;  
 
 }
 
@@ -192,7 +188,6 @@ box-shadow: 0 0 10px white;
 .about_us h3 {
     color: red;
     font-family: "Bebas Neue", sans-serif;
-
 }
 
 .percentage2{
@@ -248,8 +243,8 @@ box-shadow: 0 0 10px white;
     text-align: center;
 }
 
-.contact:hover{
-    /* border: 2px solid black; */
+/* .contact:hover{
+    /* border: 2px solid black; 
     box-shadow: 10px 5px 5px  yellow;
 }
 input:hover{
@@ -257,7 +252,7 @@ input:hover{
 }
 .from_btn:hover{
     box-shadow: 10px 5px 5px  yellow;
-}
+} */
    
     
 
@@ -354,7 +349,7 @@ color: white;
     background-position: center;
     background-size: cover;
 } */
-.experience1 i:hover{
+/* .experience1 i:hover{
 background-color: white;
 box-shadow: 0px 5px 15px yellow;
 }
@@ -372,7 +367,7 @@ box-shadow: 0px 5px 15px yellow;
 .experience3 i:hover{
 background-color: white;
 box-shadow: 0px 5px 15px yellow;
-}
+} */
 .footer{
     padding: 50px;
     color: white;

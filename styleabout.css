@@ -144,7 +144,7 @@ color:black;
 box-shadow: 0 0 10px white;
 } 
 .btn{
-    padding: 30px;
+    padding: 20px;
     font-family: "Bebas Neue", sans-serif;
 
 }
@@ -152,7 +152,7 @@ box-shadow: 0 0 10px white;
 .b a,.btn{
     position: relative;
     width: 15%;
-    height: 5vh;
+    height: 1vh;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -756,6 +756,7 @@ input{
         height: 40vh;
         padding: 10px;
         margin-left: 20%;
+        border: none;
     }
     .Frontend h1{
         font-size: 20px;
@@ -794,6 +795,7 @@ input{
         height: 40vh;
         margin-left: 20%;
         padding: 10px;
+        border: none;
     }
     .department h1{
         font-size: 20px;
