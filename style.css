@@ -241,6 +241,7 @@ box-shadow: 0 0 10px white;
     height: 60vh;
     /* border: 2px solid black; */
     text-align: center;
+    color: white;
 }
 
 /* .contact:hover{
@@ -568,9 +569,11 @@ font-family: "Smooch Sans", sans-serif;
      }
      .nav-bar{
          height: 30%; 
-        /* padding:0; */
-        
+        /* padding:0; */        
     }  
+    .nav-bar span{
+        font-size: 30px;
+    }
     .menu{
         flex-direction: column;
         align-items: center;
