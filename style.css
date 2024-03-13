@@ -344,31 +344,38 @@ color: white;
     flex-direction: column;
     gap: 2rem;
 }
+.experience1 i,.experience2 i,.experience3 i{
+    color: white;
+}
+
 /* .experience1:hover{
     box-shadow: 5px 2px 0 2px yellow;
     background-image: url(./photos/responsive\ image.jpg);
     background-position: center;
     background-size: cover;
 } */
-/* .experience1 i:hover{
+.experience1 i:hover{
 background-color: white;
 box-shadow: 0px 5px 15px yellow;
+color: black;
 }
-.experience2:hover{
+/* .experience2:hover{
     box-shadow: 5px 2px 0 2px yellow;
-}
+} */
 .experience2 i:hover{
 background-color: white;
 box-shadow: 0px 5px 15px yellow;
+color: black;
 }
 
-.experience3:hover{
+/*.experience3:hover{
     box-shadow: 5px 2px 0 2px yellow;
-}
+}*/
 .experience3 i:hover{
 background-color: white;
 box-shadow: 0px 5px 15px yellow;
-} */
+color: black;
+} 
 .footer{
     padding: 50px;
     color: white;
