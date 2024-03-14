@@ -168,186 +168,6 @@ box-shadow: 0 0 10px white;
 .b a:hover{
      box-shadow: 0px 5px 15px yellow;
 }
-.working_experiance{
-    width: 100%;
-    height: 40vh;
-    padding: 10px;  
-
-}
-
-.about_us{
-    width: 90%;
-    height: 40vh;
-    padding: 10px;
-       
-
-}
-.about_us h3 ,h1{
-    padding-bottom: 5%;
-}
-.about_us h3 {
-    color: red;
-    font-family: "Bebas Neue", sans-serif;
-}
-
-.percentage2{
-    display: flex;
-    justify-content: space- space-around;
-    justify-content: space-evenly;
-    margin-bottom: 7%;
-    font-family: Playball, cursive;
-
-}
-.percentage2 h2{
-    width: 20%;
-}
-.percentage2 span{
-    color: white;
-  font-size: 20px;
-}
-.total_works{
-    display: flex;
-    width: 100%;
-    padding:5%;
-    gap: 0px;
-    color: white;
-    background-color: black;
-    
-}
-
-.contact i:hover{
-    background-color: white;
-    box-shadow: 2px 2px 2px 2px black;
-}
-.contact_me{
-    width: 100%;
-    display: flex;
-    justify-content: space-;
-    gap:10%;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-    
-}
-
-.contact{
-    width: 40%;
-    height: 60vh;
-    text-align: center;
-    color: white;
-}
-   
-    
-
-.contact i{
-    width: 60px;
-    height: 60px;
-    border: 1px solid white;
-    color: red;
-    font-size: 40px;
-    border-radius: 50%;
-    padding: 10px;
-    
-}
-.contact a{
-    
-  display: flex;
-  
-  gap: 40px;
-  line-height: 60px;
-  
- 
-}
-.contact h2{
-    color: white;
-}
-.from  input{
-    width:150% ;
-    height: 10vh;
-    /* padding: 20px; */
-    border: 2px solid black;
-    margin-bottom: 30px;
-    
-}
-input.mess{
-    width:150% ;
-    height: 20vh;
-    padding-bottom:45%;
-}
-.from button{
-    width: 150%;
-    height: 5vh;
-    padding: 10px;
-}
-.what_I_do{
-    width: 100%;
-    display: flex;
-    color: white;
-    
-}
-.what_I_do i{
- width:100px;
- height:100px;
- border: 2px solid black;
- font-size: 50px;
- padding: 10px;
- border-radius: 50%;
- display: flex;
- justify-content: center;
- align-items: center;
- margin: auto;
- 
-}
-.what_I_do_topic{
-    width: 100%;
-    height: 70vh;
-
-    
-}
-.what_text h1{
- text-align: center;   
-font-size: 50px;
-color: white;
-}
-
-
-
-
-.experience1,.experience2,.experience3 {
-    width: 30%;
-    height: 40vh;
-    /* border: 2px solid white; */
-    text-align: center;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
-}
-.experience1 i,.experience2 i,.experience3 i{
-    color: white;
-}
-
-
-.experience1 i:hover{
-background-color: white;
-box-shadow: 0px 5px 15px yellow;
-color: black;
-}
-
-.experience2 i:hover{
-background-color: white;
-box-shadow: 0px 5px 15px yellow;
-color: black;
-}
-
-
-.experience3 i:hover{
-background-color: white;
-box-shadow: 0px 5px 15px yellow;
-color: black;
-} 
 .footer{
     padding: 50px;
     color: white;
@@ -426,9 +246,6 @@ font-family: "Smooch Sans", sans-serif;
 .footer_contact i{
     font-size: 30px;
 }
-
-
-
 @media only screen and (min-width:500px) and (max-width:900px){
     .nav{
         width: 190%;
@@ -470,47 +287,6 @@ font-family: "Smooch Sans", sans-serif;
     }
     .home_content{
         width: 150%;
-    }
-    .total_works{
-        margin-top: 20%;
-        height: 90vh;
-        width: 100%;
-    }
-    .working_experiance{
-        height: 70vh;
-        /* width: 50%; */
-    }
-    .about_us {
-        height: 70vh;
-        /* width: 50%; */
-        
-    }
-    .about_us h1 ,h3{
-        padding-bottom: 2%;
-        font-size: 20px;
-    }
-    .percentage2{
-        display: block;
-    }
-    .contact_me{
-        width: 100%;
-    }
-    .from input{
-        width: 100%;
-    }
-    .from button{
-        width: 100%;
-    }
-    .contact{
-        width: 60%;
-        justify-content: none;
-    }
-    .what_I_do_topic{
-        margin-top: 20%;
-        
-    }
-    .what_text{
-        padding: 50px;
     }
     .footer{
         height: 100%;
@@ -623,67 +399,7 @@ font-family: "Smooch Sans", sans-serif;
         border-radius: 50%;
 
      }
-     .about_us{
-        width: 100%;
-        height: 50vh;
-        margin-bottom: 10%;
-     }
-     .about_us h1{
-        font-size: 25px;
-     }
-     .working_experiance{
-        height:60vh ;
-        width: 90%;
-    
-     }
-     .total_works{
-        margin-top: 180% ;
-        width: 100%;
-        display: block;
-        text-align: center;
-       
-     }
-     .percentage2{
-        display: block;
-     }
-     .percentage2 h2{
-        width: 100%;
-     }
-     .contact_me{
-        display:block;
-        width: 100%;
-        padding: 5%;
-       
-     }
-     .from input{
-        width: 100%;
-    }
-    .from button{
-        width: 100%;
-    }
-    .contact{
-        width: 100%;
-        height: 80vh;
-        margin-bottom:20%;
-    }
-    .contact a{
-        display: block;
-    }
-    .what_I_do_topic{
-        margin-top: 100%;
-    }
-    .what_I_do{
-        display: block;
-        
-    }
-    .experience1,.experience2,.experience3{
-        margin-bottom:20% ;
-        width: 80%;
-    }
-    input.mess{
-        padding-bottom: 30%;
-    }
-    .footer{
+     .footer{
         width: 100%;
         height:100%;
         padding: 10px;
@@ -717,5 +433,4 @@ font-family: "Smooch Sans", sans-serif;
      .newsletter button{
         width: 40%;
      }
-    
-}
+    }
