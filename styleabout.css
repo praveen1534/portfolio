@@ -151,7 +151,7 @@ box-shadow: 0 0 10px white;
 
 .b a,.btn{
     position: relative;
-    width: 15%;
+    width: 18%;
     height: 1vh;
     justify-content: center;
     align-items: center;
@@ -693,7 +693,7 @@ input{
         height: 3rem;        
     }
     .b a{
-        width: 40%;
+        width: 50%;
     }
     .homepage_img img{
       margin: 10% 0 0 15%;
