@@ -168,6 +168,65 @@ box-shadow: 0 0 10px white;
 .b a:hover{
      box-shadow: 0px 5px 15px yellow;
 }
+
+.contact i:hover{
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.contact_me{
+    width: 100%;
+    display: flex;
+    justify-content: space-;
+    gap:10%;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+}
+
+.contact{
+    width: 40%;
+    height: 60vh;
+    text-align: center;
+    color: white;
+}
+   
+    
+
+.contact i{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    color: red;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+.contact a{
+    
+  display: flex;
+  
+  gap: 40px;
+  line-height: 60px;
+  
+ 
+}
+.contact h2{
+    color: white;
+}
+.from  input{
+    width:150% ;
+    height: 10vh;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    
+}
+.from button{
+    width: 150%;
+    height: 5vh;
+    padding: 10px;
+}
 .footer{
     padding: 50px;
     color: white;
@@ -245,64 +304,6 @@ font-family: "Smooch Sans", sans-serif;
 }
 .footer_contact i{
     font-size: 30px;
-}
-.contact i:hover{
-    background-color: white;
-    box-shadow: 2px 2px 2px 2px black;
-}
-.contact_me{
-    width: 100%;
-    display: flex;
-    justify-content: space-;
-    gap:10%;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-    
-}
-
-.contact{
-    width: 40%;
-    height: 60vh;
-    text-align: center;
-    color: white;
-}
-   
-    
-
-.contact i{
-    width: 50px;
-    height: 50px;
-    border: 1px solid white;
-    color: red;
-    font-size: 30px;
-    border-radius: 50%;
-    padding: 10px;
-    
-}
-.contact a{
-    
-  display: flex;
-  
-  gap: 40px;
-  line-height: 60px;
-  
- 
-}
-.contact h2{
-    color: white;
-}
-.from  input{
-    width:150% ;
-    height: 10vh;
-    border: 2px solid black;
-    margin-bottom: 30px;
-    
-}
-.from button{
-    width: 150%;
-    height: 5vh;
-    padding: 10px;
 }
 @media only screen and (min-width:500px) and (max-width:900px){
     .nav{
