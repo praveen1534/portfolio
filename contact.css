@@ -474,7 +474,7 @@ font-family: "Smooch Sans", sans-serif;
         display:block;
         width: 100%;
         padding: 5%;
-       
+        margin-top: 150%;
      }
      .from input{
         width: 100%;
