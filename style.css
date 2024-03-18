@@ -107,7 +107,7 @@ section{
     font-family: Playball, cursive;
 }
 body{
-    background-color:#092635;
+    background-color:#22092C;
     width: 100%;
 }
 .home_content h1{
@@ -210,8 +210,8 @@ box-shadow: 0 0 10px white;
     width: 100%;
     padding:5%;
     gap: 0px;
-    color: white;
-    background-color: black;
+    color:white;
+    background-color:#0F0F0F;
     
 }
 
@@ -281,7 +281,7 @@ input.mess{
 .what_I_do{
     width: 100%;
     display: flex;
-    color: white;
+    color:white;
     
 }
 .what_I_do i{
@@ -300,7 +300,7 @@ input.mess{
 .what_I_do_topic{
     width: 100%;
     height: 70vh;
-
+    background-color: #35013F;
     
 }
 .what_text h1{
@@ -676,6 +676,7 @@ font-family: "Smooch Sans", sans-serif;
     }
     .what_I_do{
         display: block;
+        
         
     }
     .experience1,.experience2,.experience3{
