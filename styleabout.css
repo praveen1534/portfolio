@@ -762,6 +762,7 @@ input{
      }
      .about_us h1,h3{
         width: 100%;
+        font-size: 20px;
         margin-bottom: 0;
         /* text-align: center;        */
 
