@@ -119,7 +119,7 @@ body{
     font-size: 20px;
     padding: 5% 0 5%;
     font-family: "Bebas Neue", sans-serif;
-
+    width: 70%;
 }
 span{
     color:yellow;
@@ -456,8 +456,10 @@ font-family: "Smooch Sans", sans-serif;
     .home_content a{
         margin-right:15px;
         width: 3rem;
-        height: 3rem;
-        
+        height: 3rem;        
+    }
+    .home_content p{
+        width: 100%;
     }
     .b a{
         width: 40%;
