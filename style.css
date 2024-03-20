@@ -98,12 +98,15 @@ section{
     font-size: 30px;
     margin-top: 10%;
     font-family: Playball, cursive;
+   
 
 }
 .home_content h2{
     font-size: 30px;
     margin-top: 3%;
     font-family: Playball, cursive;
+
+    
 }
 body{
     background-color:#22092C;
@@ -120,6 +123,7 @@ body{
     font-family: "Bebas Neue", sans-serif;
     width: 70%;
 }
+
 span{
     color:yellow;
 
