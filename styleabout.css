@@ -449,10 +449,10 @@ input{
 }
 .newsletter button{
    width: 20%;
-   padding:10px ;
+   padding:12px ;
    background-color: red;
    color: white;
-   
+   border: none;
 }
 .newsletter a{
     display: inline-flex;
