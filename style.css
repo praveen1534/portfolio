@@ -641,9 +641,12 @@ input{
      .about_us h1{
         font-size: 25px;
      }
+     .about_us h3{
+        padding-bottom: 0;
+     }
      .working_experiance{
         height:60vh ;
-        width: 90%;
+        width: 100%;
        margin-top: 20%;
      }
      .total_works{
@@ -651,7 +654,7 @@ input{
         width: 100%;
         display: block;
         text-align: center;
-       
+    
      }
      .percentage2{
         display: block;
