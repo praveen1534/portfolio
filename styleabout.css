@@ -889,15 +889,18 @@ input{
       display:block;
       grid-template-columns: auto;  
       margin: auto;
-      
+      height: 170vh;
     } 
     .footer_contact{
-        margin-top: 230%;
+        margin-top: 5%;
         column-gap: 30px;
         display: grid;
         grid-template-columns: auto;
 
     } 
+    .programs,.services,.contact2{
+        height: 40vh;
+    }
     .underline{
         width: 100%;
         margin-left: 0;
