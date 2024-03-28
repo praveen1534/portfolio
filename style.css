@@ -71,7 +71,7 @@ span.logo{
 .open-menu{
     top: 30%;
     right: 20px;
-    transform: translate(-50%);
+    /* transform: translate(-50%); */
 }
 .close-menu{
     top:20px ;
