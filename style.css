@@ -561,7 +561,7 @@ input{
      }
      .nav-bar{
          height: 30%; 
-        /* padding:0; */        
+               
     }  
     .nav-bar span{
         font-size: 30px;
@@ -750,3 +750,33 @@ input{
      }
     
 }
+import logo from './logo.svg';
+import './App.css';
+import About from './components nav/About';
+import Home from './components nav/Home';
+import Contact from './components nav/contact';
+import Signup from './components nav/signup';
+import Navbar from './home';
+import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
+
+import Value from './slider';
+import Slider from './components image/slide';
+import Dots from './components image/Dots';
+function App() {
+  return (
+    <Router className="App">
+      <Navbar/> 
+     <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/About' element={<About />} />
+      <Route path='/contact' element={<Contact />} />
+      <Route path='/Signup' element={<Signup />} />
+     </Routes>
+      <Value />
+     <Dots /> 
+     <Slider slideIndex={this.state.slideIndex} />
+    </Router>
+  );
+}
+
+export default App;
